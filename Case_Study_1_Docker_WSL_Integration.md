@@ -20,7 +20,7 @@ A detailed system analysis revealed the following root cause:
 
 | System | CPU Architecture | Windows Version | Root Cause |
 |---------|-----------------|-----------------|-------------|
-| Acer Swift Go 14 AI | AMD64 | Windows 11 Pro x64 | Installed ARM64 Docker build caused WSL proxy crash |
+| Acer Swift Go 14 AI | ARM64 | Windows 11 Pro x64 | Installed AMD64 Docker build caused WSL proxy crash |
 | Asus Vivobook (Snapdragon X Elite) | ARM64 | Windows 11 on ARM | Installed AMD64 Docker build could not connect to ARM-based WSL kernel |
 
 ---
@@ -75,3 +75,4 @@ This resolved the proxy timeout issue and enabled full container operations on b
 
 ## Keywords
 `Docker Desktop` · `WSL2` · `ARM64` · `AMD64` · `Windows 11` · `DevOps` · `System Architecture` · `Automation` · `Troubleshooting`
+
